@@ -1,0 +1,20 @@
+.rms-scrollbar-hidden {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.rms-scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}
+
+.rms-branch-wizard input,
+.rms-branch-wizard select {
+    transition: border-color 160ms ease, box-shadow 160ms ease, background-color 160ms ease;
+}
+
+.rms-branch-wizard input:focus,
+.rms-branch-wizard select:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.14);
+}
